@@ -1,4 +1,4 @@
-package lasitha.springframework.sfgpetclinic;
+package sfgpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package lasitha.springframework.sfgpetclinic.model;
+package sfgpetclinic.model;
 
 public class PetType {
 
