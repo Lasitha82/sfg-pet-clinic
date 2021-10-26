@@ -1,4 +1,4 @@
-package Controllers;
+package sfgpetclinic.Controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
 
-    @RequestMapping({"", "/", "index"})
-    public String index(){
+    @RequestMapping({"", "/index"})
+    public String listIndex(){
         return "index";
     }
 }
